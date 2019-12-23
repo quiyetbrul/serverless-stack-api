@@ -14,6 +14,7 @@ provider:
   runtime: nodejs10.x
   stage: prod
   region: us-east-1
+  profile: ${env:AWS_PROFILE}
 
   # These environment variables are made available to our functions
   # under process.env.
